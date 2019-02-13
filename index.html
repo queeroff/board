@@ -55,21 +55,23 @@ function checkTime(i) {
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 </head>
-<body class="hold-transition skin-red sidebar-mini">
-<div class="wrapper">
+<body class="hold-transition  sidebar-mini" >
+<div class="wrapper" style="background-color: #42b3f4;">
 
-  <header class="main-header">
+  <header class="main-header" >
     <!-- Logo -->
-    <a href="index2.html" class="logo">
+    <a href="index.html" class="logo" style="background-color: #3591c6;" >
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>T</b>QO</span>
+      <span class="logo-mini" style="color: white;"><b>T</b>QO</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>TQO</b>Dashboard</span>
+      <span class="logo-lg" style="color: white;"><b>TQO</b>Dashboard</span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top" role="navigation">
       <!-- Sidebar toggle button-->
-      
+       <a href="#" style="color:white;" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+        <span class="sr-only">Toggle navigation</span>
+      </a>
 
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
@@ -109,11 +111,11 @@ function checkTime(i) {
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <img src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/49376856_2233204606750338_508080247271325696_n.jpg?_nc_cat=108&_nc_ht=scontent-dfw5-1.xx&oh=7c04e537f49c9cc3e1955b84bdd58229&oe=5D011BD8" class="user-image" alt="User Image">
-              <span class="hidden-xs">TQO Contestant</span>
+              <span class="hidden-xs" >TQO Contestant</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
-              <li class="user-header">
+              <li class="user-header" style="background-color: #3591c6;">
                 <img src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/49376856_2233204606750338_508080247271325696_n.jpg?_nc_cat=108&_nc_ht=scontent-dfw5-1.xx&oh=7c04e537f49c9cc3e1955b84bdd58229&oe=5D011BD8" class="img-circle" alt="User Image">
 
                 <p>
@@ -141,15 +143,71 @@ function checkTime(i) {
             </ul>
           </li>
           <!-- Control Sidebar Toggle Button -->
-          <li>
-            <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
-          </li>
+          
         </ul>
       </div>
+
+
     </nav>
   </header>
   <!-- Left side column. contains the logo and sidebar -->
-  
+   <aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+      <!-- Sidebar user panel -->
+     
+      
+      <!-- sidebar menu: : style can be found in sidebar.less -->
+      <ul class="sidebar-menu">
+        <li class="header">MAIN NAVIGATION</li>
+        <li class="active treeview">
+          <a href="#">
+            <i class="fa fa-dashboard"></i> <span>Dashboard</span> <i class="fa fa-angle-left pull-right"></i>
+          </a>
+          
+       
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-pie-chart"></i>
+            <span>All Photos</span>
+            <small class="label pull-right bg-green">2</small>
+            
+          </a>
+         
+        </li>
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-laptop"></i>
+            <span>Runway Photos</span>
+            <small class="label pull-right bg-green">2</small>
+            <i class="fa  pull-right"></i>
+          </a>
+          
+        </li>
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-edit"></i> <span>Set List</span>
+            <i class="fa fa-angle-right pull-right"></i>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="pages/forms/general.html"><i class="fa fa-circle-o"></i> General Elements</a></li>
+            <li><a href="pages/forms/advanced.html"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
+            <li><a href="pages/forms/editors.html"><i class="fa fa-circle-o"></i> Editors</a></li>
+          </ul>
+        </li>
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-table"></i> <span>Song Submit</span>
+            <i class="fa fa-angle-left pull-right"></i>
+          </a>
+          
+        </li>
+        
+      </ul>
+    </section>
+    <!-- /.sidebar -->
+  </aside>
+
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
@@ -177,7 +235,7 @@ function checkTime(i) {
 
               <p></p>
             </div>
-            <div class="small-box-footer">Contestants Remaining </div>
+            <div class="small-box-footer">Contestants Remain </div>
             <div class="icon">
               <i class="ion ion-bag"></i>
             </div>
@@ -204,9 +262,9 @@ function checkTime(i) {
           <!-- small box -->
           <div class="small-box bg-yellow">
             <div class="inner">
-              <h3><sup style="font-size: 10px"> Name Of Random Song</sup></h3>
+              <h3><sup style="font-size: 10px"> </sup></h3>
 
-              <p>Name Of Artist</p>
+              <p></p>
             </div>
             <div class="icon">
               <i class="ion ion-person-add"></i>
@@ -219,14 +277,14 @@ function checkTime(i) {
           <!-- small box -->
           <div class="small-box bg-red">
             <div class="inner">
-              <h3>10:00PM</h3>
+              <h3>---</h3>
 
-              <p>Call Time</p>
+              <p>---</p>
             </div>
             <div class="icon">
               <i class="ion ion-pie-graph"></i>
             </div>
-            <div class="small-box-footer">You Must Be Ready! </div>
+            <div class="small-box-footer">-- </div>
           </div>
         </div>
         <!-- ./col -->
