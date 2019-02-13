@@ -161,14 +161,14 @@ function checkTime(i) {
       <ul class="sidebar-menu">
         <li class="header">MAIN NAVIGATION</li>
         <li class="active treeview">
-          <a href="#">
+          <a href="dash">
             <i class="fa fa-dashboard"></i> <span>Dashboard</span> <i class="fa fa-angle-left pull-right"></i>
           </a>
           
        
         <li class="treeview">
-          <a href="#">
-            <i class="fa fa-pie-chart"></i>
+          <a href="#all">
+            <i class="fa  fa-camera" ></i>
             <span>All Photos</span>
             <small class="label pull-right bg-green">2</small>
             
@@ -176,8 +176,8 @@ function checkTime(i) {
          
         </li>
         <li class="treeview">
-          <a href="#">
-            <i class="fa fa-laptop"></i>
+          <a href="#run">
+            <i class="fa  fa-camera"></i>
             <span>Runway Photos</span>
             <small class="label pull-right bg-green">2</small>
             <i class="fa  pull-right"></i>
@@ -185,19 +185,12 @@ function checkTime(i) {
           
         </li>
         <li class="treeview">
-          <a href="#">
-            <i class="fa fa-edit"></i> <span>Set List</span>
-            <i class="fa fa-angle-right pull-right"></i>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="pages/forms/general.html"><i class="fa fa-circle-o"></i> General Elements</a></li>
-            <li><a href="pages/forms/advanced.html"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
-            <li><a href="pages/forms/editors.html"><i class="fa fa-circle-o"></i> Editors</a></li>
-          </ul>
+          <a href="file:///Users/JayPii/Documents/GitHub/admin-lte-ru/index.html#set">
+            <i class="fa fa-list-ol"></i> <span>Set List</span></a>
         </li>
         <li class="treeview">
-          <a href="#">
-            <i class="fa fa-table"></i> <span>Song Submit</span>
+          <a href="#music">
+            <i class="fa fa-music"></i> <span>Song Submit</span>
             <i class="fa fa-angle-left pull-right"></i>
           </a>
           
@@ -309,9 +302,9 @@ function checkTime(i) {
               </div>
               <!-- /. tools -->
 
-              <i class="fa fa-map-marker"></i>
+              <i class="fa  fa-list"></i>
 
-              <h3 class="box-title">
+              <h3 id="set" class="box-title" >
                 Current Set List
               </h3>
             </div>
@@ -324,7 +317,7 @@ function checkTime(i) {
               <div class="row">
                 <div class="col-xs-4 text-center" style="border-right: 1px solid #f4f4f4">
                   <div id="sparkline-1"></div>
-                  <div class="knob-label"><div class="col-md-3 col-sm-4"><i class="fa fa-fw fa-arrows-alt"></i></div>Enlarge List</div>
+                  <div class="knob-label"><div class="col-md-3 col-sm-4"><i class="fa fa-fw fa-arrows-alt"></i></div><a href="ttps://lh3.googleusercontent.com/4Cnl60Rp-yRSab4RjdXdgnRBaZjKnfafb-9VSM-mF1djmeFpOhsEcsHMPfA">Zoom</a></div>
                 </div>
                 <!-- ./col -->
                 <div class="col-xs-4 text-center" style="border-right: 1px solid #f4f4f4">
@@ -347,8 +340,8 @@ function checkTime(i) {
 
           <!-- solid sales graph -->
           <div class="box box-solid ">
-            <div class="box-header">
-              <i class="fa fa-th"></i>
+            <div class="box-header" id="all">
+              <i class="fa  fa-camera"></i>
 
               <h3 class="box-title">All Photos</h3>
 
@@ -432,7 +425,7 @@ function checkTime(i) {
                 <!-- ./col -->
              <div class="box box-solid ">
             <div class="box-header">
-              <i class="fa fa-th"></i>
+              <i class="fa  fa-camera" id="run"></i>
 
               <h3 class="box-title">Runway Photos</h3>
 
@@ -501,6 +494,7 @@ function checkTime(i) {
               </div>
         <div class="box box-default" >
         <div class="box-header with-border">
+          <i class="fa fa-music" id="music"></i>
           <h3 class="box-title">Music Upload</h3>
 
           <div class="box-tools pull-right">
