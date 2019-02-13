@@ -1,0 +1,1 @@
+$.fn.vectorMap(<img src="https://lh3.googleusercontent.com/4Cnl60Rp-yRSab4RjdXdgnRBaZjKnfafb-9VSM-mF1djmeFpOhsEcsHMPfA"/>);
